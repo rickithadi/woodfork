@@ -1,0 +1,16 @@
+{
+  "session_id": "3e238e79-38e9-424b-be72-bcdbc7387dfe",
+  "prompts": [
+    "ensure messaging parity with https://woodforklaw.com/\n\nconduct design QA @agent-agency-swarm-coordinator ",
+    "enact recommendations. ensure profile of the lawyer is present",
+    "redesign the nav bar @agent-design-reviewer-agent ",
+    "why do we need elevenlabs?",
+    "work on beautifying navbar",
+    "add a gradient on blur onto the hero background, text is hard to read",
+    "Practice Areas\n\ntext is not visible with the background",
+    "Update the readability of the rest of the hero sections. The text is not visible. ",
+    "Use the same hero background image that's used on the home hero across all the hero sections. ",
+    "blog page is not updated",
+    "The black text in the hero section does not work because you cannot see anything. Change it to white, just like the home hero section. "
+  ]
+}

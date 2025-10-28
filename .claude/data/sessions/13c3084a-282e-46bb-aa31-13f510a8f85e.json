@@ -1,0 +1,14 @@
+{
+  "session_id": "13c3084a-282e-46bb-aa31-13f510a8f85e",
+  "prompts": [
+    "remove logs from git worktree and add to gitignore",
+    "run the dev server",
+    "use existing assets from https://woodforklaw.com/. notably the hero image",
+    "/var/folders/gy/574p89h16mj752hpgdk6_q880000gn/T/TemporaryItems/NSIRD_screencaptureui_NBf7Jq/Screenshot\\ 2025-10-28\\ at\\ 9.54.28\u202fAM.png [I",
+    "The little image in the navbar should be the background of the hero section. ",
+    "[Image #1]\n\nUse this image as the hero section background. ",
+    "[Image #1]",
+    "use the Newly added image in the public folder as the new hero background image. ",
+    "conduct design QA @agent-agency-swarm-coordinator "
+  ]
+}
