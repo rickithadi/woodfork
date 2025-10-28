@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://woodforklawfirm.com/sitemap.xml
+
+# Crawl delay (optional - adjust if needed)
+Crawl-delay: 1
+
+# Disallow crawling of certain directories (if any)
+# Disallow: /admin/
+# Disallow: /temp/
+
+# Allow specific search engines to crawl faster
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 0

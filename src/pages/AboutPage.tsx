@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Rocket, Target, Scale, Building, Monitor, GraduationCap, Calendar, Award } from 'lucide-react';
+import { Rocket, Target, Scale, Building, Monitor, GraduationCap, Calendar } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const AboutPage: React.FC = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="About Attorney Derron D. Woodfork | Arizona Legal Services Since 2011"
+        description="Learn about Attorney Derron D. Woodfork, Arizona's pioneer in remote legal services since 2011. Specializing in gun rights restoration, criminal record expungement, and legal representation."
+        keywords="Derron Woodfork attorney, Arizona lawyer biography, remote legal services, gun rights attorney Arizona, criminal record expungement lawyer"
+        canonical="/about"
+      />
       {/* Hero Section */}
       <section 
         className="relative py-20 lg:py-32 bg-cover bg-center bg-no-repeat text-white overflow-hidden"

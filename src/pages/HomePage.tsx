@@ -2,6 +2,7 @@ import { Award, Car, Clock, FileText, Fingerprint, MapPin, Phone, Shield } from 
 import React, { useState } from 'react';
 
 import CriminalRecordCTA from '../components/CriminalRecordCTA';
+import SEOHead from '../components/SEOHead';
 import { Link } from 'react-router-dom';
 
 const HomePage: React.FC = () => {
@@ -30,6 +31,12 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead 
+        title="Arizona Attorney Derron D. Woodfork | Gun Rights Restoration & Criminal Record Expungement"
+        description="Expert Arizona attorney specializing in gun rights restoration, criminal record expungement, and legal representation. 13+ years of proven results. Free consultation. Call (602) 284-3035."
+        keywords="Arizona attorney, gun rights restoration, criminal record expungement, Derron Woodfork, Arizona lawyer, Second Amendment rights, criminal defense, legal services Arizona"
+        canonical="/"
+      />
       {/* Hero Section */}
       <section
         className="relative py-20 lg:py-32 bg-cover bg-center bg-no-repeat"

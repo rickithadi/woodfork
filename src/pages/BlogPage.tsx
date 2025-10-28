@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FileText, BookOpen } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
+import SEOHead from '../components/SEOHead';
 
 const BlogPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -22,6 +23,12 @@ const BlogPage: React.FC = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="Legal Blog | Arizona Gun Rights, Expungement & Legal Articles | Woodfork Law"
+        description="Expert legal insights and articles on gun rights restoration, criminal record expungement, and Arizona legal matters from Attorney Derron D. Woodfork."
+        keywords="Arizona legal blog, gun rights articles, expungement guide, legal advice Arizona, criminal law blog, Second Amendment rights"
+        canonical="/blog"
+      />
       {/* Hero Section */}
       <section 
         className="relative py-20 lg:py-32 bg-cover bg-center bg-no-repeat text-white overflow-hidden"

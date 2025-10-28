@@ -1,8 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Car, FileText, Fingerprint, Monitor, Zap, Target } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const ServicesPage: React.FC = () => {
+  const seoData = {
+    title: "Legal Services | Gun Rights Restoration & Criminal Record Expungement in Arizona",
+    description: "Comprehensive legal services in Arizona including gun rights restoration, criminal record expungement, car accident claims, and fingerprint clearance. Expert representation with proven results.",
+    keywords: "Arizona legal services, gun rights restoration, criminal record expungement, car accident lawyer Arizona, fingerprint clearance Arizona, legal representation",
+    canonical: "/services"
+  };
   const services = [
     {
       title: 'Gun Rights Restoration',
@@ -76,6 +83,7 @@ const ServicesPage: React.FC = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead {...seoData} />
       {/* Hero Section */}
       <section 
         className="relative py-20 lg:py-32 bg-cover bg-center bg-no-repeat text-white overflow-hidden"

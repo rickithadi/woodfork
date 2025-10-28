@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
+import SEOHead from '../components/SEOHead';
 
 const BlogPostPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -9,6 +10,20 @@ const BlogPostPage: React.FC = () => {
   if (!post) {
     return <Navigate to="/blog" replace />;
   }
+
+  const seoData = {
+    title: `${post.title} | Woodfork Law Arizona`,
+    description: post.excerpt,
+    keywords: `${post.title}, Arizona legal advice, ${post.category}, legal guidance, attorney insights`,
+    canonical: `/blog/${post.slug}`,
+    ogType: 'article' as const,
+    articleData: {
+      publishedTime: new Date(post.date).toISOString(),
+      author: 'Derron D. Woodfork',
+      section: post.category,
+      tags: [post.category, 'Arizona Law', 'Legal Advice']
+    }
+  };
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('en-US', {
@@ -98,6 +113,7 @@ const BlogPostPage: React.FC = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead {...seoData} />
       {/* Breadcrumb */}
       <nav className="bg-secondary-50 py-4">
         <div className="container-custom">

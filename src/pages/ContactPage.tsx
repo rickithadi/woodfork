@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, Zap } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const ContactPage: React.FC = () => {
+  const seoData = {
+    title: "Contact Attorney Derron D. Woodfork | Free Consultation | Arizona Legal Services",
+    description: "Contact Arizona Attorney Derron D. Woodfork for a free consultation. Call (602) 284-3035 or schedule online. Remote legal services available statewide for gun rights restoration and expungement.",
+    keywords: "contact Arizona attorney, free legal consultation Arizona, Derron Woodfork contact, Arizona lawyer phone number, legal services consultation",
+    canonical: "/contact"
+  };
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -46,6 +53,7 @@ const ContactPage: React.FC = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead {...seoData} />
       {/* Hero Section */}
       <section 
         className="relative py-20 lg:py-32 bg-cover bg-center bg-no-repeat text-white overflow-hidden"
