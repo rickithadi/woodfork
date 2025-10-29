@@ -21,7 +21,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   description = "Expert Arizona attorney specializing in gun rights restoration, criminal record expungement, and legal representation. 13+ years of proven results. Free consultation. Call (602) 284-3035.",
   keywords = "Arizona attorney, gun rights restoration, criminal record expungement, Derron Woodfork, Arizona lawyer, Second Amendment rights, criminal defense, legal services Arizona",
   canonical = "https://woodforklawfirm.com/",
-  ogImage = "https://woodforklawfirm.com/og-image.jpg",
+  ogImage = "https://woodforklawfirm.com/hero.jpg",
   ogType = "website",
   articleData
 }) => {
@@ -43,14 +43,20 @@ const SEOHead: React.FC<SEOHeadProps> = ({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:alt" content={title} />
       <meta property="og:site_name" content="Woodfork Law Firm" />
+      <meta property="og:locale" content="en_US" />
 
       {/* Twitter */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={fullCanonical} />
-      <meta property="twitter:title" content={title} />
-      <meta property="twitter:description" content={description} />
-      <meta property="twitter:image" content={ogImage} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:url" content={fullCanonical} />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:image:alt" content={title} />
 
       {/* Article-specific meta tags */}
       {articleData && ogType === 'article' && (
