@@ -20,12 +20,12 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   title = "Arizona Attorney Derron D. Woodfork | Gun Rights Restoration & Criminal Record Expungement",
   description = "Expert Arizona attorney specializing in gun rights restoration, criminal record expungement, and legal representation. 13+ years of proven results. Free consultation. Call (602) 284-3035.",
   keywords = "Arizona attorney, gun rights restoration, criminal record expungement, Derron Woodfork, Arizona lawyer, Second Amendment rights, criminal defense, legal services Arizona",
-  canonical = "https://woodforklawfirm.com/",
-  ogImage = "https://woodforklawfirm.com/og-image.jpg",
+  canonical = "https://woodfork.9line.dev/",
+  ogImage = "https://woodfork.9line.dev/og-image.jpg",
   ogType = "website",
   articleData
 }) => {
-  const siteUrl = "https://woodforklawfirm.com";
+  const siteUrl = "https://woodfork.9line.dev";
   const fullCanonical = canonical.startsWith('http') ? canonical : `${siteUrl}${canonical}`;
 
   return (

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://woodforklawfirm.com/sitemap.xml
+Sitemap: https://woodfork.9line.dev/sitemap.xml
 
 # Crawl delay (optional - adjust if needed)
 Crawl-delay: 1

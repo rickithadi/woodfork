@@ -6,7 +6,7 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://woodforklawfirm.com/</loc>
+    <loc>https://woodfork.9line.dev/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
   
   <!-- About Page -->
   <url>
-    <loc>https://woodforklawfirm.com/about</loc>
+    <loc>https://woodfork.9line.dev/about</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -22,7 +22,7 @@
   
   <!-- Services Page -->
   <url>
-    <loc>https://woodforklawfirm.com/services</loc>
+    <loc>https://woodfork.9line.dev/services</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -30,7 +30,7 @@
   
   <!-- Contact Page -->
   <url>
-    <loc>https://woodforklawfirm.com/contact</loc>
+    <loc>https://woodfork.9line.dev/contact</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -38,7 +38,7 @@
   
   <!-- Blog Main Page -->
   <url>
-    <loc>https://woodforklawfirm.com/blog</loc>
+    <loc>https://woodfork.9line.dev/blog</loc>
     <lastmod>2025-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -46,35 +46,35 @@
   
   <!-- Blog Posts -->
   <url>
-    <loc>https://woodforklawfirm.com/blog/cost-restore-gun-rights-arizona</loc>
+    <loc>https://woodfork.9line.dev/blog/cost-restore-gun-rights-arizona</loc>
     <lastmod>2025-04-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://woodforklawfirm.com/blog/how-hard-get-gun-rights-restored-arizona</loc>
+    <loc>https://woodfork.9line.dev/blog/how-hard-get-gun-rights-restored-arizona</loc>
     <lastmod>2025-03-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://woodforklawfirm.com/blog/car-repaired-after-accident-arizona</loc>
+    <loc>https://woodfork.9line.dev/blog/car-repaired-after-accident-arizona</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://woodforklawfirm.com/blog/sometimes-you-dont-need-accident-attorney</loc>
+    <loc>https://woodfork.9line.dev/blog/sometimes-you-dont-need-accident-attorney</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://woodforklawfirm.com/blog/understanding-time-limits-car-accident-lawsuits-arizona</loc>
+    <loc>https://woodfork.9line.dev/blog/understanding-time-limits-car-accident-lawsuits-arizona</loc>
     <lastmod>2024-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
